@@ -286,3 +286,19 @@ $w320: 320px
 // example
 // +arr(500,50, #000, l)
 // +arr(500,50, #000, bl)
+
+//fonts
+
+@font-face
+	font-family: 'HeliosCondRegular'
+	src: url('../fonts/helioscond.eot')
+	src: url('../fonts/helioscond.eot') format('embedded-opentype'), url('../fonts/helioscond.woff') format('woff'), url('../fonts/helioscond.ttf') format('truetype')
+@font-face
+	font-family: 'HeliosCondBoldItalic'
+	src: url('../fonts/he_cn_bo.eot')
+	src: url('../fonts/he_cn_bo.eot') format('embedded-opentype'), url('../fonts/he_cn_bo.woff') format('woff'), url('../fonts/he_cn_bo.ttf') format('truetype')
+
+@mixin heliosbold
+	font-family: 'HeliosCondBoldItalic'	
+	font-weight: normal
+	font-style: normal
