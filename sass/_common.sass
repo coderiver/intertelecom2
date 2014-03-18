@@ -567,7 +567,33 @@ body
 		left: 30px
 		+arr(18, 10, #0d69c9, t)															
 .devices
-	padding: 40px 0 
+	padding: 40px 0
+	.h2
+		display: inline-block
+		vertical-align: top
+		margin-right: 23px
+.h2__hint
+	position: relative
+	display: inline-block
+	vertical-align: top
+	height: 42px
+	line-height: 42px
+	+border-radius(2px)
+	padding: 0 14px 
+	border: 1px solid #414042
+	font-size: 17px
+	&:before
+		content: ""
+		position: absolute
+		top: 13px
+		left: -12px
+		+arr(12, 17, #414042, l)
+	&:after
+		content: ""
+		position: absolute
+		top: 14px
+		left: -10px
+		+arr(10, 15, #fff, l)	 
 
 												
 			 
