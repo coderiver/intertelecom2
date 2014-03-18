@@ -1,7 +1,7 @@
 /*done by Coderiver.com.ua */
 @font-face { font-family: "HeliosCondRegular"; src: url("../fonts/helioscond.eot"); src: url("../fonts/helioscond.eot") format("embedded-opentype"), url("../fonts/helioscond.woff") format("woff"), url("../fonts/helioscond.ttf") format("truetype"); }
 
-@font-face { font-family: "HeliosCondBoldItalic"; src: url("../fonts/he_cn_bo.eot"); src: url("../fonts/he_cn_bo.eot") format("embedded-opentype"), url("../fonts/he_cn_bo.woff") format("woff"), url("../fonts/he_cn_bo.ttf") format("truetype"); }
+@font-face { font-family: "HeliosCondBoldItalic"; src: url("../fonts/he_cn-webfont.eot"); src: url("../fonts/he_cn-webfont.eot") format("embedded-opentype"), url("../fonts/he_cn-webfont.woff") format("woff"), url("../fonts/he_cn-webfont.ttf") format("truetype"); }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
 
@@ -227,11 +227,11 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 .order { padding: 30px 0; overflow: hidden; }
 .order .order__title { font-weight: bold; font-size: 34px; margin-bottom: 18px; color: #414042; }
 .order .order__table { width: 100%; border-spacing: 0; border-collapse: collapse; margin-bottom: 26px; }
-.order .order__table thead th { border-bottom: 1px solid #c1c1c1; padding-bottom: 13px; text-align: left; }
+.order .order__table thead th { border-bottom: 1px solid #c1c1c1; padding-bottom: 13px; text-align: left; font-family: "HeliosCondBoldItalic"; font-weight: normal; font-style: normal; }
 .order .order__table thead th i { background: url('../img/icons-sa931a11a4a.png') 0 -1813px no-repeat; width: 13px; height: 13px; font-size: 17px; color: #414042; display: inline-block; margin-right: 6px; }
 .order .order__table tbody tr:nth-child(2n+1) th, .order .order__table tbody tr:nth-child(2n+1) td { background: rgba(0, 0, 0, 0.03); }
 .order .order__table tbody th { text-align: left; font-weight: normal; font-size: 22px; color: #414042; padding: 12px 0 12px 18px; width: 475px; }
-.order .order__table tbody td { font-size: 22px; }
+.order .order__table tbody td { font-size: 22px; font-family: "HeliosCondBoldItalic"; font-weight: normal; font-style: normal; }
 .order .order__left { float: left; width: 40%; }
 .order .order__right { float: right; width: 40%; text-align: right; }
 .order .order__right .btn { padding: 0 15px; height: 45px; font-size: 17px; display: inline-block; }
