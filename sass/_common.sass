@@ -45,6 +45,25 @@ body
 	font-family: 'HeliosCondRegular', Arial, sans-serif 
 	line-height: 1.2
 
+=justify
+	text-align: justify
+	line-height: 0
+	font-size: 1px
+	text-justify: newspaper
+	zoom: 1
+	text-align-last: justify
+	&:after
+		content: ""
+		display: inline-block
+		width: 100%
+		height: 0px
+		visibility: hidden
+		overflow: hidden
+=justify-child
+	display: inline-block
+	line-height: normal
+	vertical-align: top
+	font-size: 14px
 .container
 	width: 960px
 	margin: 0 auto  
@@ -209,8 +228,191 @@ body
 	cursor: pointer
 	
 // media
-.media
+.tab-wrap
+	margin-bottom: 30px
+.media-wrap
 	padding-top: 40px		 			
+.tab
+	+clr
+	margin: 15px 0
+.tab__item
+	float: left
+	&:first-child
+		.tab__link
+			margin-left: 0
+.tab__link
+	position: relative
+	display: block
+	height: 44px
+	padding: 0 13px
+	min-width: 157px 
+	line-height: 44px
+	margin-left: 8px
+	+border-radius(2px)
+	border-bottom: 1px solid #a2a8b1 
+	background: #fbfbfb
+	+box-shadow(inset 0 1px 0 #fff)
+	+background-image(linear-gradient(bottom, #fff 0%, #ebebeb 100%))
+	text-align: center
+	text-decoration: none
+	color: #414042
+	&:hover
+		background: #e7e7e7
+		+background-image(linear-gradient(bottom, #e7e7e7 0%, #e7e7e7 100%))
+	&.is-active
+		background: #165ab2
+		+box-shadow(inset 0 1px 0 #fff)
+		+background-image(linear-gradient(bottom, #0b4da1 0%, #256ecd 99.24%, #256ecd 100%))
+		color: #fff
+		&:before
+			content: ""
+			position: absolute
+			top: 100%
+			left: 50%
+			margin-left: -6px
+			+arr(12, 8, #0b4da1, b)
+.tab-cont
+	background: #f4f4f4
+	padding: 18px  			
+.media__topper
+	+clr
+	padding: 13px
+	background: #fff
+	margin-bottom: 20px
+	.h2
+		position: relative
+		float: left
+		padding-left: 56px
+		&.h2_web
+			&:before
+				content: ""
+				position: absolute
+				top: 0
+				left: 0
+				+s(web)
+		&.h2_email
+			&:before
+				content: ""
+				position: absolute
+				top: 0
+				left: 0
+				+s(email)
+		&.h2_music
+			&:before
+				content: ""
+				position: absolute
+				top: 0
+				left: 0
+				+s(music)
+		&.h2_video
+			&:before
+				content: ""
+				position: absolute
+				top: 0
+				left: 0
+				+s(video)
+.media__testbtn
+	position: relative
+	float: right
+	height: 44px
+	line-height: 44px
+	padding: 0 58px 0 20px
+	+border-radius(2px)
+	background: #fde109
+	+box-shadow(inset 0 1px 0 #fff)
+	+background-image(linear-gradient(bottom, #0b4da1 0%, #256ecd 99.24%, #256ecd 100%))
+	text-decoration: none
+	color: #fff
+	font-size: 17px
+	&:before
+		content: ""
+		position: absolute
+		top: 10px
+		right: 20px
+		+s(start)
+	&:hover
+		background: #0b4da1
+.test
+	+justify
+	li
+		width: 216px
+		padding: 10px 12px 14px
+		+box  
+		+justify-child
+		+border-radius(2px)
+		background: #fff
+.test__top
+	position: relative
+	margin-bottom: 12px
+	p
+		font-size: 11px		
+.test__title
+	color: #0c4da2
+	font-size: 17px
+	+heliosbold
+.test__info
+	position: absolute
+	top: 2px
+	right: 0px
+	+s(info)
+	cursor: pointer
+	&:hover
+		+s(info-hover)
+.test__btn
+	position: relative
+	display: block
+	height: 134px
+	width: 100%
+	margin-bottom: 7px
+	+border-radius(2px)
+	background: #f3f3f3
+	+box-shadow(0 1px 0 #cbcbcb, inset 0 1px 0 #fff)
+	&:before
+		content: ""
+		position: absolute
+		top: 50%
+		left: 50%
+		margin: -24px 0 0 -22px
+		+s(power)
+	&:active
+		top: 1px
+		+box-shadow(inset 0 1px 0 #fff)
+.test__progress
+	position: relative
+	height: 4px
+	margin-bottom: 10px
+	@include border-radius(2px)
+	background: #f3f3f3
+.test__progressbar
+	position: absolute
+	top: 0
+	left: 0
+	bottom: 0
+	max-width: 100%
+	@include border-radius(2px)
+	background: #ffe116
+	+box-shadow(inset 0 1px 0 #fff)
+	+background-image(linear-gradient(bottom, #ffdd03 0%, #fff66e 100%))
+.test__time
+	position: relative
+	font-size: 34px
+	color: #414042
+	padding-left: 44px
+	&:before
+		content: ""
+		position: absolute
+		top: 0
+		left: 0
+		+s(timer)
+.share
+	text-align: center
+	margin-bottom: 45px		
+
+		
+
+
+												
 			 
+
    			
 		
