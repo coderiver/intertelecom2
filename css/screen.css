@@ -86,6 +86,8 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 
 .cycle-next { position: absolute; right: -54px; top: 200px; background: url('../img/icons-s7711f68732.png') 0 -98px no-repeat; width: 30px; height: 56px; cursor: pointer; }
 
+.media { padding-top: 40px; }
+
 .l { *zoom: 1; }
 .l:after { content: " "; display: table; clear: both; }
 .l .l-col1 { float: left; width: 20%; }
