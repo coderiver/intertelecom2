@@ -1,0 +1,471 @@
+<!doctype html>
+<!--[if lte IE 8]><html class="lteie8"><![endif]-->
+<!--[if gt IE 8]><!--><html><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Template</title>
+    <meta name="viewport" content="initial-scale=1"/>
+    <link rel="stylesheet" media="screen" href="css/screen.css" >
+    <!--[if IE]><script src="js/html5shiv.js"></script><![endif]-->
+    <script src="js/jquery.js"></script>
+    <script src="js/cycle.js"></script>
+    <script src="js/jquery.cycle2.carousel.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+
+<!-- BEGIN  out-->
+<div class="out">
+    <!-- BEGIN header -->
+    <header class="header">
+        <div class="header__inner container">
+            <h1 class="logo">
+                <a href="#"></a>
+            </h1>
+            <a href="#" class="header__turbo3g"></a>
+            <ul class="header__language">
+                <li><a href="#">Укр</a></li>
+                <li><a href="#" class="is-active">Рус</a></li>
+            </ul>
+            <div class="header__phone">
+                <p>+ 38 (094) 700 70 70</p>
+                <span>стоимость звонков согласно тарифам операторов связи</span>
+            </div>
+        </div> 
+    </header>
+    <!-- END header -->
+    <!-- BEGIN content -->
+    <div class="main">
+        <!-- BEGIN slider -->
+        <section class="slider">
+            <div class="container">
+                <div class="slider__controls">
+                    <div class="cycle-prev"></div>
+                    <div class="cycle-next"></div>
+                </div>  
+                <div class="cycle-slideshow"
+                data-cycle-fx="carousel"
+                data-cycle-slides=".slider__item"
+                data-cycle-prev=".cycle-prev"
+                data-cycle-next=".cycle-next"
+                >
+                    <!-- slider pager -->
+                    <div class="cycle-pager"></div>
+                    
+                    <!-- slides -->
+                    <div class="slider__item">
+                        <img src="img/slide1.jpg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slide1.jpg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slide1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END slider -->
+        <!-- BEGIN trial -->
+        <section class="grey">
+            <div class="trial container">
+                <div class="trial__form">
+                    <form>
+                        <input type="text" class="input input_name" placeholder="Фамилия, имя, отчество">
+                        <input type="text" class="input input_phone" placeholder="+380 50 500 50 50">
+                        <button type="submit" class="btn">Попробовать бесплатно</button>
+                    </form>
+                </div>
+                <div class="trial__text">
+                    <div class="trial__left">Ваша информация останется конфиденциальной, без спама.</div>
+                    <div class="trial__right">Первый месяц услуга «Турбо скорость» за 0 грн. Акция действует до 30.04.14.</div>
+                </div>
+            </div>
+        </section>
+        <!-- END trial -->
+        <!-- BEGIN media -->
+        <section class="media-wrap">
+            <div class="container">
+                <h2 class="h2">Максимальная скорость 3G Турбо — до 14,7 Мбит/с</h2>
+                <!-- BEGIN tabs -->
+                <div class="tab-wrap js-tab-group">
+                    <!-- tab list -->
+                    <ul class="tab js-tab">
+                      <li class="tab__item is-active">
+                        <a href="js-tab1" class="tab__link is-active">Веб сайт</a>
+                      </li>
+                      <li class="tab__item tab__item_last">
+                        <a href="js-tab2" class="tab__link">Е-мейл с фото</a>
+                      </li>
+                      <li class="tab__item tab__item_last">
+                        <a href="js-tab3" class="tab__link">Музыкальная композиция</a>
+                      </li>
+                      <li class="tab__item tab__item_last">
+                        <a href="js-tab4" class="tab__link">Видео ролик</a>
+                      </li>
+                    </ul>
+                    <!-- END tab list -->
+                    <!-- tab content -->
+                    <div class="tab-cont media js-tab-cont js-tab1">
+                        <div class="media__topper">
+                            <h2 class="h2 h2_web">Веб сайт</h2>
+                            <a href="#" class="media__testbtn">Запустить тест</a>
+                        </div> 
+                        <ul class="test">
+                            <li class="test__item">
+                                <div class="test__top">
+                                    <div class="test__title">3G Турбо Rev.B</div>
+                                    <p>до 14,7 Мбит/с</p>
+                                    <i class="test__info"></i>
+                                </div>
+                                <button class="test__btn"></button>
+                                <div class="test__progress">
+                                    <div class="test__progressbar" style="width: 25%"></div>
+                                </div>
+                                <div class="test__time">00:00.01</div>
+                            </li> 
+                            <li class="test__item">
+                                <div class="test__top">
+                                    <div class="test__title">3G Турбо Rev.B</div>
+                                    <p>до 14,7 Мбит/с</p>
+                                    <i class="test__info"></i>
+                                </div>
+                                <button class="test__btn"></button>
+                                <div class="test__progress">
+                                    <div class="test__progressbar" style="width: 25%"></div>
+                                </div>
+                                <div class="test__time">00:00.01</div>
+                            </li>
+                            <li class="test__item">
+                                <div class="test__top">
+                                    <div class="test__title">3G Турбо Rev.B</div>
+                                    <p>до 14,7 Мбит/с</p>
+                                    <i class="test__info"></i>
+                                </div>
+                                <button class="test__btn"></button>
+                                <div class="test__progress">
+                                    <div class="test__progressbar" style="width: 25%"></div>
+                                </div>
+                                <div class="test__time">00:00.01</div>
+                            </li>
+                            <li class="test__item">
+                                <div class="test__top">
+                                    <div class="test__title">3G Турбо Rev.B</div>
+                                    <p>до 14,7 Мбит/с</p>
+                                    <i class="test__info"></i>
+                                </div>
+                                <button class="test__btn"></button>
+                                <div class="test__progress">
+                                    <div class="test__progressbar" style="width: 25%"></div>
+                                </div>
+                                <div class="test__time">00:00.01</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-cont media js-tab-cont js-tab2">
+                        <div class="media__topper">
+                            <h2 class="h2 h2_email">Е-мейл с фото</h2>
+                            <a href="#" class="media__testbtn">Запустить тест</a>
+                        </div>
+                        <ul class="test">
+                            <li class="test__item">
+                                <div class="test__top">
+                                    <div class="test__title">3G Турбо Rev.B</div>
+                                    <p>до 14,7 Мбит/с</p>
+                                    <i class="test__info"></i>
+                                </div>
+                                <button class="test__btn"></button>
+                                <div class="test__progress">
+                                    <div class="test__progressbar" style="width: 25%"></div>
+                                </div>
+                                <div class="test__time">00:00.01</div>
+                            </li> 
+                            <li class="test__item">
+                                <div class="test__top">
+                                    <div class="test__title">3G Турбо Rev.B</div>
+                                    <p>до 14,7 Мбит/с</p>
+                                    <i class="test__info"></i>
+                                </div>
+                                <button class="test__btn"></button>
+                                <div class="test__progress">
+                                    <div class="test__progressbar" style="width: 25%"></div>
+                                </div>
+                                <div class="test__time">00:00.01</div>
+                            </li>
+                            <li class="test__item">
+                                <div class="test__top">
+                                    <div class="test__title">3G Турбо Rev.B</div>
+                                    <p>до 14,7 Мбит/с</p>
+                                    <i class="test__info"></i>
+                                </div>
+                                <button class="test__btn"></button>
+                                <div class="test__progress">
+                                    <div class="test__progressbar" style="width: 25%"></div>
+                                </div>
+                                <div class="test__time">00:00.01</div>
+                            </li>
+                            <li class="test__item">
+                                <div class="test__top">
+                                    <div class="test__title">3G Турбо Rev.B</div>
+                                    <p>до 14,7 Мбит/с</p>
+                                    <i class="test__info"></i>
+                                </div>
+                                <button class="test__btn"></button>
+                                <div class="test__progress">
+                                    <div class="test__progressbar" style="width: 25%"></div>
+                                </div>
+                                <div class="test__time">00:00.01</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-cont media js-tab-cont js-tab3">
+                        <div class="media__topper">
+                            <h2 class="h2 h2_music">Музыкальная композиция</h2>
+                            <a href="#" class="media__testbtn">Запустить тест</a>
+                        </div>
+                        <ul class="test">
+                            <li class="test__item">
+                                <div class="test__top">
+                                    <div class="test__title">3G Турбо Rev.B</div>
+                                    <p>до 14,7 Мбит/с</p>
+                                    <i class="test__info"></i>
+                                </div>
+                                <button class="test__btn"></button>
+                                <div class="test__progress">
+                                    <div class="test__progressbar" style="width: 25%"></div>
+                                </div>
+                                <div class="test__time">00:00.01</div>
+                            </li> 
+                            <li class="test__item">
+                                <div class="test__top">
+                                    <div class="test__title">3G Турбо Rev.B</div>
+                                    <p>до 14,7 Мбит/с</p>
+                                    <i class="test__info"></i>
+                                </div>
+                                <button class="test__btn"></button>
+                                <div class="test__progress">
+                                    <div class="test__progressbar" style="width: 25%"></div>
+                                </div>
+                                <div class="test__time">00:00.01</div>
+                            </li>
+                            <li class="test__item">
+                                <div class="test__top">
+                                    <div class="test__title">3G Турбо Rev.B</div>
+                                    <p>до 14,7 Мбит/с</p>
+                                    <i class="test__info"></i>
+                                </div>
+                                <button class="test__btn"></button>
+                                <div class="test__progress">
+                                    <div class="test__progressbar" style="width: 25%"></div>
+                                </div>
+                                <div class="test__time">00:00.01</div>
+                            </li>
+                            <li class="test__item">
+                                <div class="test__top">
+                                    <div class="test__title">3G Турбо Rev.B</div>
+                                    <p>до 14,7 Мбит/с</p>
+                                    <i class="test__info"></i>
+                                </div>
+                                <button class="test__btn"></button>
+                                <div class="test__progress">
+                                    <div class="test__progressbar" style="width: 25%"></div>
+                                </div>
+                                <div class="test__time">00:00.01</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-cont media js-tab-cont js-tab4">
+                        <div class="media__topper">
+                            <h2 class="h2 h2_video">Видео ролик</h2>
+                            <a href="#" class="media__testbtn">Запустить тест</a>
+                        </div>
+                        <ul class="test">
+                            <li class="test__item">
+                                <div class="test__top">
+                                    <div class="test__title">3G Турбо Rev.B</div>
+                                    <p>до 14,7 Мбит/с</p>
+                                    <i class="test__info"></i>
+                                </div>
+                                <button class="test__btn"></button>
+                                <div class="test__progress">
+                                    <div class="test__progressbar" style="width: 25%"></div>
+                                </div>
+                                <div class="test__time">00:00.01</div>
+                            </li> 
+                            <li class="test__item">
+                                <div class="test__top">
+                                    <div class="test__title">3G Турбо Rev.B</div>
+                                    <p>до 14,7 Мбит/с</p>
+                                    <i class="test__info"></i>
+                                </div>
+                                <button class="test__btn"></button>
+                                <div class="test__progress">
+                                    <div class="test__progressbar" style="width: 25%"></div>
+                                </div>
+                                <div class="test__time">00:00.01</div>
+                            </li>
+                            <li class="test__item">
+                                <div class="test__top">
+                                    <div class="test__title">3G Турбо Rev.B</div>
+                                    <p>до 14,7 Мбит/с</p>
+                                    <i class="test__info"></i>
+                                </div>
+                                <button class="test__btn"></button>
+                                <div class="test__progress">
+                                    <div class="test__progressbar" style="width: 25%"></div>
+                                </div>
+                                <div class="test__time">00:00.01</div>
+                            </li>
+                            <li class="test__item">
+                                <div class="test__top">
+                                    <div class="test__title">3G Турбо Rev.B</div>
+                                    <p>до 14,7 Мбит/с</p>
+                                    <i class="test__info"></i>
+                                </div>
+                                <button class="test__btn"></button>
+                                <div class="test__progress">
+                                    <div class="test__progressbar" style="width: 25%"></div>
+                                </div>
+                                <div class="test__time">00:00.01</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- END tab content -->
+                </div>
+                <!-- END tabs -->
+                <div class="share">
+                    <img src="img/social-plug.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- END media -->
+    </div>
+    <!-- END content -->
+</div>
+<!-- END out-->
+
+<!-- begin bottomarea  -->
+<div class="bottomarea">
+
+
+    <!-- begin grey  -->
+    <div class="grey">
+        <!-- begin container  -->
+        <div class="container">
+            <!-- begin order  -->
+            <div class="order">
+                <h2 class="order__title">Ваш заказ</h2>
+                <table class="order__table">
+                    <thead>
+                        <tr>
+                            <th><i></i>Мобильное устройство</th>
+                            <th>Разовый платеж</th>
+                            <th>Периодический платеж</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Apple iPad mini 16GB white 3G CDMA</th>
+                            <td>4999 грн</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="order__table">
+                    <thead>
+                        <tr>
+                            <th><i></i>Тарифный план</th>
+                            <th>&nbsp;</th>
+                            <th>&nbsp;</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Активация тарифного плана</th>
+                            <td>50 грн</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <th>Активация тарифного плана</th>
+                            <td>&nbsp;</td>
+                            <td>2 грн/день</td>
+                        </tr>
+                        <tr>
+                            <th>Активация тарифного плана</th>
+                            <td>&nbsp;</td>
+                            <td>1 грн/день</td>
+                        </tr>
+                        <tr>
+                            <th>Активация тарифного плана</th>
+                            <td>5089 грн</td>
+                            <td>3 грн/день</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="order__left">
+                    <a class="bluebtn" href="#" class="">Выбрать другое устройство</a>
+                </div>
+                <div class="bluebutton">
+                    
+                </div>
+                <div class="order__right">
+                    <button type="submit" class="btn">Заказать бесплатную доставку</button>
+                    <span>Возврат, обмен: в течение 14 дней.<br>
+Гарантия: 12 месяцев.</span>
+                </div>
+                
+            </div>
+            <!-- end order -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end grey -->
+    <div class="container">
+        <!-- begin wheretobuy  -->
+        <div class="wheretobuy">
+            <h2>Где купить</h2>
+            <p>Подключить интернет 3G Турбо и получить первый месяц Турбо скорости бесплатно можно:</p>
+            <ul>
+                <li>В центрах обслуживания абонентов во всех крупных городах и ряде районных центров. Выбрать адрес</li>
+
+                <li>В дилерских точках продаж «Интертелеком» – более 2500 магазинов партнеров. Выбрать магазин</li>
+
+                <li>Коробочное решение мобильного 3G интернета можно приобрести в национальных сетях:</li>
+            </ul>
+            <img src="img/logos.png" alt="">
+            <div class="share">
+                <img src="img/social-plug.jpg" alt="">
+            </div>
+        </div>
+        <!-- end wheretobuy -->
+
+    </div>
+    <!-- end container -->
+     <!-- BEGIN trial -->
+    <section class="grey">
+        <div class="trial container">
+            <div class="trial__form">
+                <form>
+                    <input type="text" class="input input_name" placeholder="Фамилия, имя, отчество">
+                    <input type="text" class="input input_phone" placeholder="+380 50 500 50 50">
+                    <button type="submit" class="btn">Попробовать бесплатно</button>
+                </form>
+            </div>
+            <div class="trial__text">
+                <div class="trial__left">Ваша информация останется конфиденциальной, без спама.</div>
+                <div class="trial__right">Первый месяц услуга «Турбо скорость» за 0 грн. Акция действует до 30.04.14.</div>
+            </div>
+        </div>
+    </section>
+    <!-- END trial -->
+</div>
+<!-- end bottomarea -->
+<!-- BEGIN footer -->
+<footer class="footer">
+    
+</footer>
+<!-- END footer -->
+
+</body>
+</html>

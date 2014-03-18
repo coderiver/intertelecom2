@@ -1,0 +1,101 @@
+.bottomarea
+	padding-bottom: 40px 
+
+
+.order
+	padding: 30px 0
+	overflow: hidden
+	.order__title
+		//+heliosbold
+		font-weight: bold
+		font-size: 34px 
+		margin-bottom: 18px 
+		color: #414042 
+	.order__table
+		width: 100% 
+		border-spacing: 0
+		border-collapse: collapse
+		margin-bottom: 26px 
+		thead
+			th
+				border-bottom: 1px solid #C1C1C1 
+				padding-bottom: 13px 
+				text-align: left
+				i
+					+s(smallbul)
+					font-size: 17px 
+					color: #414042 
+					display: inline-block
+					margin-right: 6px 
+		tbody
+			tr:nth-child(2n+1)
+				th,td
+					background: rgba(#000, .03) 
+			th
+				text-align: left
+				font-weight: normal
+				font-size: 22px 
+				color: #414042
+				padding: 12px 0 12px 18px
+				width: 475px 
+			td
+				font-size: 22px 
+	.order__left
+		float: left
+		width: 40% 
+	.order__right
+		float: right
+		width: 40%
+		text-align: right
+		.btn
+			padding: 0 15px 
+			height: 45px
+			font-size: 17px 
+			display: inline-block
+		span
+			display: block
+			text-align: right
+			font-size: 11px 
+			padding-top: 5px 
+.bluebtn
+	display: inline-block
+	padding: 0 15px
+	font-size: 17px  
+	color: #fff 
+	text-decoration: none
+	@include border-radius(2px)
+	@include background-clip(padding-box)
+	background-color: #fde109
+	@include box-shadow(inset 0 1px 0 #fff)
+	@include background-image(linear-gradient(bottom, #0b4da1 0%, #256ecd 99.24%, #256ecd 100%))
+	height: 45px 
+	line-height: 45px 
+	&:hover
+		@include background-image(linear-gradient(top, #0b4da1 0%, #256ecd 99.24%, #256ecd 100%))
+
+
+
+.wheretobuy
+	padding: 30px 0
+	font-size: 22px 
+	color: #414042 
+	.wheretobuy__title
+		font-size: 34px 
+		color: #414042
+		font-weight: bold 
+		margin-bottom: 5px 
+	ul
+		list-style: none
+		font-size: 17px 
+		color: #414042
+		margin: 25px 0 
+		li
+			position: relative
+			margin-bottom: 24px 
+			padding-left: 25px 
+			&:before
+				position: absolute
+				left: 0
+				top: -2px
+				+s(bul)  
+				content: ' '
