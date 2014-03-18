@@ -226,6 +226,11 @@ body
 	top: 200px
 	+s(slider-next)
 	cursor: pointer
+.slider__item
+	width: 960px 
+	img
+		width: 100%
+		height: 100% 	
 	
 // media
 .tab-wrap
@@ -406,10 +411,189 @@ body
 		+s(timer)
 .share
 	text-align: center
-	margin-bottom: 45px		
-
-		
-
+	margin-bottom: 45px
+	
+// benefits
+.benefits
+	padding: 36px 0 53px
+	.h2
+		span
+			font-size: 40px
+.coverage
+	padding-top: 25px			
+.coverage__topper
+	+clr
+	margin-bottom: 17px
+.coverage__types
+	float: left
+	padding: 10px 
+	border: 1px solid #413f41
+	+border-radius(2px)
+	font-size: 0
+	& > div
+		margin-left: 25px
+		&:first-child
+			margin-left: 0 
+.revB, .revA
+	position: relative
+	display: inline-block	
+	font-size: 17px
+	span
+		display: inline-block
+		vertical-align: middle
+.revB__color, .revA__color
+	display: inline-block
+	vertical-align: middle
+	width: 25px
+	height: 25px
+	margin-right: 8px
+	background: #92ef25
+.revA__color	
+	background: #ffea00
+.coverage__search
+	float: right
+	input[type="text"]
+		width: 310px
+		margin-right: 10px
+	button
+		display: inline-block
+		height: 45px
+		padding: 0 27px 
+		@include border-radius(2px)
+		background: #1558b0
+		+box-shadow(inset 0 1px 0 #fff)
+		+background-image(linear-gradient(bottom, #0b4da1 0%, #256ecd 99.24%, #256ecd 100%))
+		color: #fff
+		font-family: 'HeliosCondRegular', Arial, sans-serif
+		font-size: 17px
+.coverage__map
+	height: 380px
+	margin-bottom: 10px
+.coverage__notice
+	position: relative
+	font-size: 11px
+	color: #b4b4b4
+	margin-bottom: 33px
+	padding-bottom: 25px
+	border-bottom: 1px solid #d4d4d4
+	&:before
+		content: ""
+		position: absolute
+		bottom: -1px
+		left: 0
+		right: 0
+		height: 1px
+		+background-image(linear-gradient(left, #fff 0%, #d4d4d4 10%, #d4d4d4 90%, #fff 100%))			
+.h2_turbo3g
+	i
+		display: inline-block
+		vertical-align: middle
+		+s(turbo3g-blue)	
+.benefits__list
+	padding: 40px 0 90px 
+	+justify
+	li
+		position: relative
+		height: 54px
+		+justify-child
+		&:hover
+			.benefits__hint
+				display: block
+.benefits__icon
+	cursor: pointer			
+.b1
+	display: inline-block
+	+s(b1)
+	&:hover
+		+s(b1-hover)
+.b2
+	display: inline-block
+	+s(b2)
+	&:hover
+		+s(b2-hover)
+.b3
+	display: inline-block
+	+s(b3)
+	&:hover
+		+s(b3-hover)
+.b4
+	display: inline-block
+	+s(b4)
+	&:hover
+		+s(b4-hover)
+.b5
+	display: inline-block
+	+s(b5)
+	&:hover
+		+s(b5-hover)
+.b6
+	display: inline-block
+	+s(b6)
+	&:hover
+		+s(b6-hover)
+.b7
+	display: inline-block
+	+s(b7)
+	&:hover
+		+s(b7-hover)
+.b8
+	display: inline-block
+	+s(b8)
+	&:hover
+		+s(b8-hover)
+.b9
+	display: inline-block
+	+s(b9)
+	&:hover
+		+s(b9-hover)
+.benefits__hint
+	display: none
+	position: absolute
+	top: 74px
+	left: 0
+	width: 250px
+	+box
+	padding: 18px 22px
+	+border-radius(2px)
+	background: #0c58b2
+	+background-image(linear-gradient(bottom, #0b4da1 0%, #0d69c9 99.24%, #0d69c9 100%))
+	color: #fefefe
+	font-size: 17px
+	text-align: left
+	&:before
+		content: ""
+		position: absolute
+		top: -10px
+		left: 30px
+		+arr(18, 10, #0d69c9, t)															
+.devices
+	padding: 40px 0
+	.h2
+		display: inline-block
+		vertical-align: top
+		margin-right: 23px
+.h2__hint
+	position: relative
+	display: inline-block
+	vertical-align: top
+	height: 42px
+	line-height: 42px
+	+border-radius(2px)
+	padding: 0 14px 
+	border: 1px solid #414042
+	font-size: 17px
+	&:before
+		content: ""
+		position: absolute
+		top: 13px
+		left: -12px
+		+arr(12, 17, #414042, l)
+	&:after
+		content: ""
+		position: absolute
+		top: 14px
+		left: -10px
+		+arr(10, 15, #fff, l)	 
 
 												
 			 
