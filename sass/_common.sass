@@ -49,6 +49,30 @@ body
 	width: 960px
 	margin: 0 auto  
 
+.grey
+	background: url(../img/dark-pattern.png) 
+.btn
+	+border-radius(2px)
+	text-align: center
+	text-decoration: none
+	color: #414042
+	background: #ffe41f
+	border-bottom: 1px solid #a8aeb6 
+	+box-shadow(inset 0 1px 0 #fff)
+	+background-image(linear-gradient(bottom, #ffdd03 0%, #fff66e 100%))
+.input
+	+box
+	height: 44px
+	padding: 0 13px 
+	border-bottom: 1px solid #a8aeb6
+	font-family: 'HeliosCondRegular', Arial, sans-serif
+	font-size: 17px
+	+placeholder-color(#a9a9a9)
+.input_name
+	width: 438px
+.input_phone
+	width: 208px	
+
 // header
 
 .header__inner
@@ -100,7 +124,8 @@ body
 			color: #414042
 			&:hover, &.is-active
 				background: #ffe41f
-				+box-shadow(inset 0 1px 0 #fff, 0px 1px 0px #a8aeb6)
+				border-bottom: 1px solid #a8aeb6 
+				+box-shadow(inset 0 1px 0 #fff)
 				+background-image(linear-gradient(bottom, #ffdd03 0%, #fff66e 100%))
 .header__phone
 	float: right
@@ -113,7 +138,66 @@ body
 	span
 		font-size: 11px
 		color: #a9a9a9
-		text-transform: uppercase 
-
+		text-transform: uppercase
+		
+// trial
+.trial
+	padding-top: 28px
+.trial__form
+	font-size: 0
+	input
+		margin-right: 12px
+	button
+		display: inline-block
+		vertical-align: top
+		height: 45px
+		width: 290px
+		font-size: 17px 
+		font-family: 'HeliosCondRegular', Arial, sans-serif
+.trial__text
+	padding: 10px 0
+	+clr
+	font-size: 11px
+.trial__left
+	float: left
+.trial__right
+	float: right
+	
+// slider
+.slider
+	position: relative
+	padding: 50px 0 
+	background: url(../img/slider-bg.png)
+.cycle-pager
+	text-align: center
+	span
+		display: inline-block
+		vertical-align: middle
+		width: 7px
+		height: 7px
+		margin: 0 7px 
+		+border-radius(50%)
+		background: #0c4da2
+		font-size: 0
+		cursor: pointer  				 			 
+		&.cycle-pager-active
+			width: 12px
+			height: 12px 
+			background: #ffde00
+.slider__controls
+	position: relative			
+.cycle-prev
+	position: absolute
+	left: -54px
+	top: 200px
+	+s(slider-prev)
+	cursor: pointer
+.cycle-next
+	position: absolute
+	right: -54px
+	top: 200px
+	+s(slider-next)
+	cursor: pointer	 			
+			 
    			
 		

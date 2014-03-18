@@ -8,6 +8,8 @@
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
 	<!--[if IE]><script src="js/html5shiv.js"></script><![endif]-->
 	<script src="js/jquery.js"></script>
+	<script src="js/cycle.js"></script>
+	<script src="js/jquery.cycle2.carousel.min.js"></script>
 	<script src="js/common.js"></script>
 </head>
 <body>
@@ -32,6 +34,57 @@
 		</div> 
 	</header>
 	<!-- END header -->
+	<!-- BEGIN content -->
+	<div class="main">
+		<!-- BEGIN slider -->
+		<section class="slider">
+			<div class="container">
+				<div class="slider__controls">
+					<div class="cycle-prev"></div>
+    				<div class="cycle-next"></div>
+				</div>	
+				<div class="cycle-slideshow"
+				data-cycle-fx="carousel"
+				data-cycle-slides=".slider__item"
+				data-cycle-prev=".cycle-prev"
+        		data-cycle-next=".cycle-next"
+				>
+					<!-- slider pager -->
+					<div class="cycle-pager"></div>
+    				
+    				<!-- slides -->
+					<div class="slider__item">
+						<img src="img/slide1.jpg" alt="">
+					</div>
+					<div class="slider__item">
+						<img src="img/slide1.jpg" alt="">
+					</div>
+					<div class="slider__item">
+						<img src="img/slide1.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END slider -->
+		<!-- BEGIN trial -->
+		<section class="grey">
+			<div class="trial container">
+				<div class="trial__form">
+					<form>
+						<input type="text" class="input input_name" placeholder="Фамилия, имя, отчество">
+						<input type="text" class="input input_phone" placeholder="+380 50 500 50 50">
+						<button type="submit" class="btn">Попробовать бесплатно</button>
+					</form>
+				</div>
+				<div class="trial__text">
+					<div class="trial__left">Ваша информация останется конфиденциальной, без спама.</div>
+					<div class="trial__right">Первый месяц услуга «Турбо скорость» за 0 грн. Акция действует до 30.04.14.</div>
+				</div>
+			</div>
+		</section>
+		<!-- END trial -->
+	</div>
+	<!-- END content -->
 </div>
 <!-- END out-->
 <!-- BEGIN footer -->
