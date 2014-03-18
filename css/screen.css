@@ -30,6 +30,7 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 .grey { background: url(../img/dark-pattern.png); }
 
 .btn { -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; text-align: center; text-decoration: none; color: #414042; background: #ffe41f; border-bottom: 1px solid #a8aeb6; -webkit-box-shadow: inset 0 1px 0 white; -moz-box-shadow: inset 0 1px 0 white; box-shadow: inset 0 1px 0 white; background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ffdd03), color-stop(100%, #fff66e)); background-image: -webkit-linear-gradient(bottom, #ffdd03 0%, #fff66e 100%); background-image: -moz-linear-gradient(bottom, #ffdd03 0%, #fff66e 100%); background-image: -o-linear-gradient(bottom, #ffdd03 0%, #fff66e 100%); background-image: linear-gradient(bottom, #ffdd03 0%, #fff66e 100%); }
+.btn:hover { background: #ffee12; background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ffed11), color-stop(100%, #ffed11)); background-image: -webkit-linear-gradient(bottom, #ffed11 0%, #ffed11 100%); background-image: -moz-linear-gradient(bottom, #ffed11 0%, #ffed11 100%); background-image: -o-linear-gradient(bottom, #ffed11 0%, #ffed11 100%); background-image: linear-gradient(bottom, #ffed11 0%, #ffed11 100%); }
 
 .input { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; height: 44px; padding: 0 13px; border-bottom: 1px solid #a8aeb6; font-family: "HeliosCondRegular", Arial, sans-serif; font-size: 17px; }
 .input:-moz-placeholder, .input::-moz-placeholder { color: darkgrey; opacity: 1; }
@@ -38,6 +39,8 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 .input_name { width: 438px; }
 
 .input_phone { width: 208px; }
+
+.h2 { font-family: "HeliosCondBoldItalic"; font-weight: normal; font-style: normal; font-size: 34px; color: #414042; }
 
 .header__inner { position: relative; *zoom: 1; height: 96px; border-bottom: 1px solid #d4d4d4; }
 .header__inner:after { content: " "; display: table; clear: both; }
