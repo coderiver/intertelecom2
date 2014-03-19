@@ -42,6 +42,12 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 
 .h2 { font-family: "HeliosCondBold"; font-weight: normal; font-style: normal; font-size: 34px; color: #414042; }
 
+.h2_white { color: white; }
+
+.h3 { font-size: 22px; color: #414042; font-weight: normal; }
+
+.h3_white { color: white; }
+
 .header__inner { position: relative; *zoom: 1; height: 96px; border-bottom: 1px solid #d4d4d4; }
 .header__inner:after { content: " "; display: table; clear: both; }
 .header__inner:before { content: ""; position: absolute; bottom: -1px; left: 0; right: 0; height: 1px; background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ffffff), color-stop(10%, #d4d4d4), color-stop(90%, #d4d4d4), color-stop(100%, #ffffff)); background-image: -webkit-linear-gradient(left, #ffffff 0%, #d4d4d4 10%, #d4d4d4 90%, #ffffff 100%); background-image: -moz-linear-gradient(left, #ffffff 0%, #d4d4d4 10%, #d4d4d4 90%, #ffffff 100%); background-image: -o-linear-gradient(left, #ffffff 0%, #d4d4d4 10%, #d4d4d4 90%, #ffffff 100%); background-image: linear-gradient(left, #ffffff 0%, #d4d4d4 10%, #d4d4d4 90%, #ffffff 100%); }
@@ -277,6 +283,16 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 
 .product__help { font-size: 11px; }
 .product__help p { margin-bottom: 0; }
+
+.blue { position: relative; background: #1558b1; background-image: -webkit-gradient(radial, 50%, 0, 50%, 100, color-stop(0%, #328edc), color-stop(100%, #0c4da2)); background-image: -webkit-radial-gradient(center, #328edc 0%, #0c4da2 100%); background-image: -moz-radial-gradient(center, #328edc 0%, #0c4da2 100%); background-image: -o-radial-gradient(center, #328edc 0%, #0c4da2 100%); background-image: radial-gradient(center, #328edc 0%, #0c4da2 100%); }
+.blue:before { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0; background: url(../img/ptrn.png); }
+
+.join { position: relative; z-index: 3; padding: 40px 0 32px; }
+
+.join__list { text-align: justify; line-height: 0; font-size: 1px; text-justify: newspaper; zoom: 1; text-align-last: justify; }
+.join__list:after { content: ""; display: inline-block; width: 100%; height: 0px; visibility: hidden; overflow: hidden; }
+
+.join__item { display: inline-block; line-height: normal; vertical-align: top; font-size: 14px; }
 
 .l { *zoom: 1; }
 .l:after { content: " "; display: table; clear: both; }

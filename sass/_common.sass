@@ -99,6 +99,14 @@ body
 	+heliosbold
 	font-size: 34px
 	color: #414042
+.h2_white
+	color: #fff
+.h3
+	font-size: 22px
+	color: #414042
+	font-weight: normal
+.h3_white
+	color: #fff			
 
 
 // header
@@ -726,6 +734,25 @@ body
 	font-size: 11px
 	p
 		margin-bottom: 0
-
-   			
+.blue
+	position: relative		
+	background: #1558b1
+	+background-image(radial-gradient(center, #328edc 0%, #0c4da2 100%))
+	&:before
+		content: ""
+		position: absolute
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0
+		z-index: 0
+		background: url(../img/ptrn.png)
+.join
+	position: relative
+	z-index: 3
+	padding: 40px 0 32px
+.join__list
+	+justify
+.join__item
+	+justify-child			
 		
