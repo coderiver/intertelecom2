@@ -22,4 +22,9 @@ $(document).ready(function() {
     if ($(".js-tab-group").length) {
     	tab();
     };
+
+    if ($(".input_phone").length) {
+        $(".input_phone").mask("999 999-99-99");
+    }
+
 });
