@@ -217,6 +217,13 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 .h2__hint:before { content: ""; position: absolute; top: 13px; left: -12px; width: 0px; height: 0px; border-style: solid; border-width: 8.5px 12px 8.5px 0; border-color: transparent #414042 transparent transparent; }
 .h2__hint:after { content: ""; position: absolute; top: 14px; left: -10px; width: 0px; height: 0px; border-style: solid; border-width: 7.5px 10px 7.5px 0; border-color: transparent white transparent transparent; }
 
+.devices-wrap { *zoom: 1; padding-top: 38px; }
+.devices-wrap:after { content: " "; display: table; clear: both; }
+
+.devices__tab { float: left; width: 102px; }
+
+.devices__item { height: 102px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; background: #f4f4f4; margin-bottom: 1px; }
+
 .l { *zoom: 1; }
 .l:after { content: " "; display: table; clear: both; }
 .l .l-col1 { float: left; width: 20%; }
