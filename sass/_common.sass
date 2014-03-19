@@ -767,4 +767,92 @@ body
 .join__title
 	+heliosbold
 	font-size: 22px
-		
+	
+// appliance
+.appliance
+	padding: 35px 0
+.appliance__info
+	+clr
+	padding-top: 15px
+.appliance__img
+	position: relative
+	float: left
+	width: 238px
+	img
+		max-width: 90%
+.appliance__price
+	float: left
+	width: 330px
+	margin-right: 73px 
+	ul
+		padding-top: 35px
+		li
+			+clr
+			height: 25px
+			line-height: 25px
+			margin-bottom: 12px
+			padding: 10px 42px 10px 14px  
+			+border-radius(2px)
+			background: #fff
+			border-bottom: 1px solid #c7cbd0
+			p
+				float: right
+				font-size: 22px
+				color: #414042
+				&:first-child
+					float: left
+			&.discount
+				p
+					position: relative
+					+heliosbold
+					&:first-child
+						height: 28px
+						background: #ffe420
+						padding-right: 23px
+						+background-image(linear-gradient(top, #fff569 0%, #ffdd05 100%))
+						&:before
+							content: "" 
+							position: absolute
+							top: 0px
+							right: -5px
+							+s(discount-arr)
+						&:after
+							content: ""
+							position: absolute
+							top: -6px
+							left: -24px
+							+s(discount-arr2)
+.appliance__details
+	overflow: hidden
+	padding-top: 35px
+	a
+		display: inline-block
+		margin-bottom: 10px
+		color: #6a8dba
+		font-size: 14px
+		text-decoration: none
+		line-height: 1
+		border-bottom: 1px dotted
+		&:hover
+			color: #414042								 		
+.appliance__title
+	font-size: 22px
+	+heliosbold
+	color: #414042
+	margin-bottom: 25px
+	span
+		font-family: 'HeliosCondRegular', Arial, sans-serif				
+.appliance__list
+	margin-bottom: 25px
+	li
+		position: relative
+		padding-left: 21px
+		&:before
+			content: ""
+			position: absolute
+			top: 0
+			left: 0
+			width: 12px
+			height: 12px
+			background: #ffe422
+			+border-radius(2px)  
