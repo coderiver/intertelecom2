@@ -1,7 +1,7 @@
 /*done by Coderiver.com.ua */
 @font-face { font-family: "HeliosCondRegular"; src: url("../fonts/helioscond.eot"); src: url("../fonts/helioscond.eot") format("embedded-opentype"), url("../fonts/helioscond.woff") format("woff"), url("../fonts/helioscond.ttf") format("truetype"); }
 
-@font-face { font-family: "HeliosCondBoldItalic"; src: url("../fonts/he_cn-webfont.eot"); src: url("../fonts/he_cn-webfont.eot") format("embedded-opentype"), url("../fonts/he_cn-webfont.woff") format("woff"), url("../fonts/he_cn-webfont.ttf") format("truetype"); }
+@font-face { font-family: "HeliosCondBold"; src: url("../fonts/he_cn-webfont.eot"); src: url("../fonts/he_cn-webfont.eot") format("embedded-opentype"), url("../fonts/he_cn-webfont.woff") format("woff"), url("../fonts/he_cn-webfont.ttf") format("truetype"); }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
 
@@ -40,7 +40,7 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 
 .input_phone { width: 208px; }
 
-.h2 { font-family: "HeliosCondBoldItalic"; font-weight: normal; font-style: normal; font-size: 34px; color: #414042; }
+.h2 { font-family: "HeliosCondBold"; font-weight: normal; font-style: normal; font-size: 34px; color: #414042; }
 
 .header__inner { position: relative; *zoom: 1; height: 96px; border-bottom: 1px solid #d4d4d4; }
 .header__inner:after { content: " "; display: table; clear: both; }
@@ -58,7 +58,7 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 .header__language li a:hover, .header__language li a.is-active { background: #ffe41f; border-bottom: 1px solid #a8aeb6; -webkit-box-shadow: inset 0 1px 0 white; -moz-box-shadow: inset 0 1px 0 white; box-shadow: inset 0 1px 0 white; background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ffdd03), color-stop(100%, #fff66e)); background-image: -webkit-linear-gradient(bottom, #ffdd03 0%, #fff66e 100%); background-image: -moz-linear-gradient(bottom, #ffdd03 0%, #fff66e 100%); background-image: -o-linear-gradient(bottom, #ffdd03 0%, #fff66e 100%); background-image: linear-gradient(bottom, #ffdd03 0%, #fff66e 100%); }
 
 .header__phone { float: right; text-align: right; padding-top: 35px; }
-.header__phone p { font-family: "HeliosCondBoldItalic"; font-weight: normal; font-style: normal; font-size: 22px; color: #414042; }
+.header__phone p { font-family: "HeliosCondBold"; font-weight: normal; font-style: normal; font-size: 22px; color: #414042; }
 .header__phone span { font-size: 11px; color: darkgrey; text-transform: uppercase; }
 
 .trial { padding-top: 28px; }
@@ -125,7 +125,7 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 .test__top { position: relative; margin-bottom: 12px; }
 .test__top p { font-size: 11px; }
 
-.test__title { color: #0c4da2; font-size: 17px; font-family: "HeliosCondBoldItalic"; font-weight: normal; font-style: normal; }
+.test__title { color: #0c4da2; font-size: 17px; font-family: "HeliosCondBold"; font-weight: normal; font-style: normal; }
 
 .test__info { position: absolute; top: 2px; right: 0px; background: url('../img/icons-sa931a11a4a.png') 0 -1701px no-repeat; width: 8px; height: 17px; cursor: pointer; }
 .test__info:hover { background: url('../img/icons-sa931a11a4a.png') 0 -1728px no-repeat; width: 8px; height: 17px; }
@@ -227,11 +227,11 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 .order { padding: 30px 0; overflow: hidden; }
 .order .order__title { font-weight: bold; font-size: 34px; margin-bottom: 18px; color: #414042; }
 .order .order__table { width: 100%; border-spacing: 0; border-collapse: collapse; margin-bottom: 26px; }
-.order .order__table thead th { border-bottom: 1px solid #c1c1c1; padding-bottom: 13px; text-align: left; font-family: "HeliosCondBoldItalic"; font-weight: normal; font-style: normal; }
+.order .order__table thead th { border-bottom: 1px solid #c1c1c1; padding-bottom: 13px; text-align: left; font-family: "HeliosCondBold"; font-weight: normal; font-style: normal; }
 .order .order__table thead th i { background: url('../img/icons-sa931a11a4a.png') 0 -1813px no-repeat; width: 13px; height: 13px; font-size: 17px; color: #414042; display: inline-block; margin-right: 6px; }
 .order .order__table tbody tr:nth-child(2n+1) th, .order .order__table tbody tr:nth-child(2n+1) td { background: rgba(0, 0, 0, 0.03); }
 .order .order__table tbody th { text-align: left; font-weight: normal; font-size: 22px; color: #414042; padding: 12px 0 12px 18px; width: 475px; }
-.order .order__table tbody td { font-size: 22px; font-family: "HeliosCondBoldItalic"; font-weight: normal; font-style: normal; }
+.order .order__table tbody td { font-size: 22px; font-family: "HeliosCondBold"; font-weight: normal; font-style: normal; }
 .order .order__left { float: left; width: 40%; }
 .order .order__right { float: right; width: 40%; text-align: right; }
 .order .order__right .btn { padding: 0 15px; height: 45px; font-size: 17px; display: inline-block; }
