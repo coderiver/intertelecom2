@@ -330,6 +330,12 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 .appliance__list li { position: relative; padding-left: 21px; }
 .appliance__list li:before { content: ""; position: absolute; top: 0; left: 0; width: 12px; height: 12px; background: #ffe422; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; }
 
+.fixed-callback { position: fixed; top: 100px; right: 0; }
+
+.fixed-help { position: fixed; top: 323px; right: 0; }
+
+.fixed-order { position: fixed; top: 603px; right: 0; }
+
 .l { *zoom: 1; }
 .l:after { content: " "; display: table; clear: both; }
 .l .l-col1 { float: left; width: 20%; }
