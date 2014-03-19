@@ -289,10 +289,16 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 
 .join { position: relative; z-index: 3; padding: 40px 0 32px; }
 
-.join__list { text-align: justify; line-height: 0; font-size: 1px; text-justify: newspaper; zoom: 1; text-align-last: justify; }
+.join__list { padding-top: 35px; text-align: justify; line-height: 0; font-size: 1px; text-justify: newspaper; zoom: 1; text-align-last: justify; }
 .join__list:after { content: ""; display: inline-block; width: 100%; height: 0px; visibility: hidden; overflow: hidden; }
 
-.join__item { display: inline-block; line-height: normal; vertical-align: top; font-size: 14px; }
+.join__item { width: 160px; display: inline-block; line-height: normal; vertical-align: top; font-size: 14px; color: white; }
+.join__item div, .join__item p { text-align: center; }
+.join__item p { font-size: 17px; }
+
+.join__img { margin-bottom: 20px; }
+
+.join__title { font-family: "HeliosCondBold"; font-weight: normal; font-style: normal; font-size: 22px; }
 
 .l { *zoom: 1; }
 .l:after { content: " "; display: table; clear: both; }
