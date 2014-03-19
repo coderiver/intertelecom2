@@ -302,7 +302,7 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 .bottomarea { padding-bottom: 40px; }
 
 .order { padding: 30px 0; overflow: hidden; }
-.order .order__title { font-weight: bold; font-size: 34px; margin-bottom: 18px; color: #414042; }
+.order .order__title { font-family: "HeliosCondBold"; font-weight: normal; font-style: normal; font-weight: normal; font-size: 34px; margin-bottom: 18px; color: #414042; }
 .order .order__table { width: 100%; border-spacing: 0; border-collapse: collapse; margin-bottom: 26px; }
 .order .order__table thead th { border-bottom: 1px solid #c1c1c1; padding-bottom: 13px; text-align: left; font-family: "HeliosCondBold"; font-weight: normal; font-style: normal; }
 .order .order__table thead th i { background: url('../img/icons-s3cc779c459.png') 0 -2691px no-repeat; width: 13px; height: 13px; font-size: 17px; color: #414042; display: inline-block; margin-right: 6px; }
@@ -318,7 +318,7 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 .bluebtn:hover { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0b4da1), color-stop(99.24%, #256ecd), color-stop(100%, #256ecd)); background-image: -webkit-linear-gradient(top, #0b4da1 0%, #256ecd 99.24%, #256ecd 100%); background-image: -moz-linear-gradient(top, #0b4da1 0%, #256ecd 99.24%, #256ecd 100%); background-image: -o-linear-gradient(top, #0b4da1 0%, #256ecd 99.24%, #256ecd 100%); background-image: linear-gradient(top, #0b4da1 0%, #256ecd 99.24%, #256ecd 100%); }
 
 .wheretobuy { padding: 30px 0; font-size: 22px; color: #414042; }
-.wheretobuy .wheretobuy__title { font-size: 34px; color: #414042; font-weight: bold; margin-bottom: 5px; }
+.wheretobuy .wheretobuy__title { font-size: 34px; color: #414042; font-weight: normal; margin-bottom: 5px; font-family: "HeliosCondBold"; font-weight: normal; font-style: normal; }
 .wheretobuy ul { list-style: none; font-size: 17px; color: #414042; margin: 25px 0; }
 .wheretobuy ul li { position: relative; margin-bottom: 24px; padding-left: 25px; }
 .wheretobuy ul li:before { position: absolute; left: 0; top: -2px; background: url('../img/icons-s3cc779c459.png') 0 -2633px no-repeat; width: 17px; height: 18px; content: " "; }
