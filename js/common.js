@@ -43,7 +43,7 @@ $(document).ready(function() {
     
     // btns fixed
     function btns(){
-        if ($(window).scrollTop() >= 100) {
+        if ($(window).scrollTop() >= 95) {
             $(".fixed-callback").addClass('is-fixed');
             $(".fixed-help").addClass('is-fixed');
             $(".fixed-order").addClass('is-fixed');
