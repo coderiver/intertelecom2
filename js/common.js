@@ -41,5 +41,22 @@ $(document).ready(function() {
         radio();
     };
     
-
+    // btns fixed
+    function btns(){
+        if ($(window).scrollTop() >= 100) {
+            $(".fixed-callback").addClass('is-fixed');
+            $(".fixed-help").addClass('is-fixed');
+            $(".fixed-order").addClass('is-fixed');
+        }
+        else{
+            $(".fixed-callback").removeClass('is-fixed');
+            $(".fixed-help").removeClass('is-fixed');
+            $(".fixed-order").removeClass('is-fixed');
+        }
+    }
+    btns();  
+    $(window).scroll(function(){
+        btns();
+    }); 
+    
 });
