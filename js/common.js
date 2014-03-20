@@ -27,4 +27,19 @@ $(document).ready(function() {
         $(".input_phone").mask("999 999-99-99");
     }
 
+
+    // pseudo radio buttons
+
+    function radio(){
+
+        $(".js-radio-item").on("click", function(){
+            $(this).parent().find(".js-radio-item").removeClass('is-selected');
+            $(this).addClass('is-selected');
+        });
+    }
+    if ($(".js-radio").length) {
+        radio();
+    };
+    
+
 });
