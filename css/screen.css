@@ -45,6 +45,10 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 
 .input_phone { width: 208px; }
 
+.is-error { box-shadow: 0 0 1px 1px red; }
+
+.is-valid { box-shadow: 0 0 1px 1px green; }
+
 .h2 { font-family: "HeliosCondBold"; font-weight: normal; font-style: normal; font-size: 34px; color: #414042; }
 
 .h2_white { color: white; }

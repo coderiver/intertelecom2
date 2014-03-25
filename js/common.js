@@ -1,4 +1,19 @@
 $(document).ready(function() {
+    $('.input_name').keyup(function(event) {
+        inp = $(this).val();
+        var matches = inp.match(/\b[^\d\s]+\b/g);
+        if ( matches && matches.length >= 2 ) {$(this).addClass('is-valid');}
+         else{$(this).addClass('is-error');}
+    });
+    $('.input_phone').keyup(function(event) {
+        $(this).val($(this).val().replace(/[A-Za-z$-]/g, "")); 
+         inp = $(this).val();
+        // console.log(inp.match("/\d/"));
+         inp = inp.replace(/[A-Za-z$-]/g, ""); 
+        // console.log(inp);
+         if(inp.length===11){$(this).addClass('is-valid');}
+         else{$(this).addClass('is-error');}
+    });
     $('.devices__link').click(function(event) {
         $('.devices__item').removeClass('is-active');
         $(this).parent().addClass('is-active');
