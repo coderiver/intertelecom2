@@ -668,6 +668,9 @@ body
 			&.usb-icon
 				+s(usb-hover)
 .product-cont
+	// float: right
+	// width: 833px 
+.l-right
 	float: right
 	width: 833px 
 .product__controls
@@ -675,20 +678,22 @@ body
 	z-index: 2
 .product-prev
 	position: absolute
-	top: 189px
+	top: 113px
 	left: 0
 	+s(product-prev)
 	cursor: pointer
 .product-next
 	position: absolute
-	top: 189px
+	top: 113px
 	right: 0px
 	+s(product-next)
 	cursor: pointer															
 .product__item
-	width: 763px
-	padding: 0 35px  
-.product__inner
+	// width: 763px
+	// padding: 0 35px  
+.product__list
+	white-space: nowrap
+.product__unit
 	white-space: normal
 .product__title
 	margin-bottom: 55px
@@ -699,7 +704,9 @@ body
 	+clr		
 .product__unit
 	float: left
-	width: 50%
+	width: 415px
+	// margin-bottom: 100px 
+	height: 415px 
 	+clr
 .product__img												
 	float: left
