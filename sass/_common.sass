@@ -474,6 +474,8 @@ body
 		color: #fff
 		font-family: 'HeliosCondRegular', Arial, sans-serif
 		font-size: 17px
+		&:hover
+			@include background-image(linear-gradient(top, #0b4da1 0%, #256ecd 99.24%, #256ecd 100%))
 .coverage__map
 	height: 380px
 	margin-bottom: 10px
@@ -573,7 +575,14 @@ body
 		position: absolute
 		top: -10px
 		left: 30px
-		+arr(18, 10, #0d69c9, t)															
+		+arr(18, 10, #0d69c9, t)	
+	&.benefits__last
+		right: 0
+		left: auto 
+		&:before
+			left: auto 
+			right: 30px 
+	&.benefits__prelast														
 .devices
 	padding: 40px 0
 	.h2
