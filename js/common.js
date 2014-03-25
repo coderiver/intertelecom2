@@ -1,5 +1,17 @@
 $(document).ready(function() {
-
+    $('.devices__link').click(function(event) {
+        $('.devices__item').removeClass('is-active');
+        $(this).parent().addClass('is-active');
+        str = $(this).attr('href');
+        str = str.slice(-1);
+        str = str - 1;
+        //alert(str);
+        $('#biggestslideshow').cycle('goto', str);
+        return false;
+    });
+    $('.btn_radio').click(function(event) {
+        $(this).addClass('is-pressed');
+    });
 	// tabs
 	function tab() {
        $(".js-tab").each(function(){

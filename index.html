@@ -10,6 +10,7 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/cycle.js"></script>
 	<script src="js/jquery.cycle2.carousel.min.js"></script>
+    <script src="js/jquery.cycle2.scrollVert.js"></script>
 	<script src="js/jquery.mask.min.js"></script>
 	<script src="js/common.js"></script>
 </head>
@@ -408,37 +409,146 @@
 				<h2 class="h2">Для всех устройств</h2>
 				<div class="h2__hint">Выберите желаемое устройство со скоростным 3G Турбо</div>
 				<!-- BEGIN tabs -->
-				<div class="devices-wrap js-tab-group">
+				<div class="devices-wrap ">
   					<!-- tab list -->
-  					<ul class="devices__tab js-tab">
+  					<ul class="devices__tab">
   					  <li class="devices__item is-active">
-  					    <a href="js-tab1" class="devices__link is-active"><i class="phone-icon"></i></a>
+  					    <a href="#js-tab4" class="devices__link is-active"><i class="phone-icon"></i></a>
   					  </li>
   					  <li class="devices__item">
-  					    <a href="js-tab2" class="devices__link"><i class="tablet-icon"></i></a>
+  					    <a href="#js-tab3" class="devices__link"><i class="tablet-icon"></i></a>
   					  </li>
   					  <li class="devices__item">
-  					    <a href="js-tab3" class="devices__link"><i class="modem-icon"></i></a>
+  					    <a href="#js-tab2" class="devices__link"><i class="modem-icon"></i></a>
   					  </li>
   					  <li class="devices__item">
-  					    <a href="js-tab4" class="devices__link"><i class="usb-icon"></i></a>
+  					    <a href="#js-tab1" class="devices__link"><i class="usb-icon"></i></a>
   					  </li>
   					</ul>
   					<!-- END tab list -->
                     <div class="l-right">
+                    <!-- start product gallery -->
+                        <div id="biggestslideshow" class="cycle-slideshow"
+                                data-cycle-fx="scrollVert"
+                                
+                                data-cycle-slides=".js-tab-cont"
+                                data-cycle-timeout="0"
+                                
+                                >
                         <!--begin tab  -->
-                        <div class="product-cont js-tab-cont js-tab1">
-                            <div class="product__title">3G интернет для ноутбука и всех Wi-Fi устройств</div>
+                        <div class="product-cont js-tab-cont js-tab4">
+                            <div class="product__title">Смартфоны с 3G Турбо до 14,7 Мбит/с</div>
                             <div class="product__slider">
                                 <div class="product__controls">
-                                    <div class="product-prev"></div>
-                                    <div class="product-next"></div>
+                                    <div class="product-prev product-prev1"></div>
+                                    <div class="product-next product-next1"></div>
                                 </div>  
                                 <div class="cycle-slideshow"
                                 data-cycle-fx="carousel"
                                 data-cycle-slides=".product__unit"
-                                data-cycle-prev=".product-prev"
-                                data-cycle-next=".product-next"
+                                data-cycle-prev=".product-prev1"
+                                data-cycle-next=".product-next1"
+                                data-cycle-timeout="0"
+                                data-cycle-carousel-visible="2"
+                                >
+                                    
+                                                <ul class="product__list">
+                                                    <li class="product__unit">
+                                                        <div class="product__img">
+                                                            <img src="img/pict1.jpg" alt="">
+                                                            <i></i>
+                                                        </div>
+                                                        <div class="product__info">
+                                                            <div class="product__name">Мобильный Wi-Fi роутер</div>
+                                                            <p>EVDO Rev A </p>
+                                                            <p>Подходит для всех Wi-Fi устройств</p>
+                                                            <a href="#">Технические характеристики</a>
+                                                            <div class="product__retailprice">Розничная цена – 799 грн</div>
+                                                            <div type="submit" class="btn btn_radio">Заказать сейчас – <span>699 грн</span><div class="btn__radio"><i></i></div>
+                                                            </div>
+                                                            <div class="product__help">
+                                                                <p>Возврат, обмен: в течение 14 дней.</p>
+                                                                <p>Гарантия: 12 месяцев</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="product__unit">
+                                                        <div class="product__img">
+                                                            <img src="img/pict1.jpg" alt="">
+                                                            <i></i>
+                                                        </div>
+                                                        <div class="product__info">
+                                                            <div class="product__name">Мобильный Wi-Fi роутер</div>
+                                                            <p>EVDO Rev A </p>
+                                                            <p>Подходит для всех Wi-Fi устройств</p>
+                                                            <a href="#">Технические характеристики</a>
+                                                            <div class="product__retailprice">Розничная цена – 799 грн</div>
+                                                            <div type="submit" class="btn btn_radio">Заказать сейчас – <span>399 грн</span><div class="btn__radio"><i></i></div>
+                                                            <div class="product__help">
+                                                                <p>Возврат, обмен: в течение 14 дней.</p>
+                                                                <p>Гарантия: 12 месяцев</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="product__unit">
+                                                        <div class="product__img">
+                                                            <img src="img/pict1.jpg" alt="">
+                                                            <i></i>
+                                                        </div>
+                                                        <div class="product__info">
+                                                            <div class="product__name">Мобильный Wi-Fi роутер</div>
+                                                            <p>EVDO Rev A </p>
+                                                            <p>Подходит для всех Wi-Fi устройств</p>
+                                                            <a href="#">Технические характеристики</a>
+                                                            <div class="product__retailprice">Розничная цена – 799 грн</div>
+                                                            <button type="submit" class="btn">Заказать сейчас – <span>699 грн</span></button>
+                                                            <div class="product__help">
+                                                                <p>Возврат, обмен: в течение 14 дней.</p>
+                                                                <p>Гарантия: 12 месяцев</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="product__unit">
+                                                        <div class="product__img">
+                                                            <img src="img/pict1.jpg" alt="">
+                                                        </div>
+                                                        <div class="product__info">
+                                                            <div class="product__name">Мобильный Wi-Fi роутер 3G Турбо</div>
+                                                            <p>EVDO Rev B </p>
+                                                            <p>Подходит для всех Wi-Fi устройств</p>
+                                                            <a href="#">Технические характеристики</a>
+                                                            <div class="product__retailprice">Розничная цена – 499 грн</div>
+                                                            <button type="submit" class="btn">Заказать сейчас – <span>399 грн</span></button>
+                                                            <div class="product__help">
+                                                                <p>Возврат, обмен: в течение 14 дней.</p>
+                                                                <p>Гарантия: 12 месяцев</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                     
+                                 
+                                                
+                                </div>
+                                <!-- end cycle block -->
+                            </div>
+                            <!-- products slider -->
+                        </div>
+                        <!-- end tab -->
+
+                        <!--begin tab  -->
+                        <div class="product-cont js-tab-cont js-tab3">
+                            <div class="product__title">Планшеты с 3G Турбо до 14,7 Мбит/с</div>
+                            <div class="product__slider">
+                                <div class="product__controls">
+                                    <div class="product-prev product-prev2"></div>
+                                    <div class="product-next product-next2"></div>
+                                </div>  
+                                <div class="cycle-slideshow"
+                                data-cycle-fx="carousel"
+                                data-cycle-slides=".product__unit"
+                                data-cycle-prev=".product-prev2"
+                                data-cycle-next=".product-next2"
                                 data-cycle-timeout="0"
                                 data-cycle-carousel-visible="2"
                                 >
@@ -525,6 +635,206 @@
                             <!-- products slider -->
                         </div>
                         <!-- end tab -->
+                        <!--begin tab  -->
+                        <div class="product-cont js-tab-cont js-tab2">
+                            <div class="product__title">3G Турбо для ноутбука и всех Wi-Fi устройств</div>
+                            <div class="product__slider">
+                                <div class="product__controls">
+                                    <div class="product-prev product-prev3"></div>
+                                    <div class="product-next product-next3"></div>
+                                </div>  
+                                <div class="cycle-slideshow"
+                                data-cycle-fx="carousel"
+                                data-cycle-slides=".product__unit"
+                                data-cycle-prev=".product-prev3"
+                                data-cycle-next=".product-next3"
+                                data-cycle-timeout="0"
+                                data-cycle-carousel-visible="2"
+                                >
+                                    
+                                                <ul class="product__list">
+                                                    <li class="product__unit">
+                                                        <div class="product__img">
+                                                            <img src="img/pict1.jpg" alt="">
+                                                            <i></i>
+                                                        </div>
+                                                        <div class="product__info">
+                                                            <div class="product__name">Мобильный Wi-Fi роутер</div>
+                                                            <p>EVDO Rev A </p>
+                                                            <p>Подходит для всех Wi-Fi устройств</p>
+                                                            <a href="#">Технические характеристики</a>
+                                                            <div class="product__retailprice">Розничная цена – 799 грн</div>
+                                                            <button type="submit" class="btn">Заказать сейчас – <span>699 грн</span></button>
+                                                            <div class="product__help">
+                                                                <p>Возврат, обмен: в течение 14 дней.</p>
+                                                                <p>Гарантия: 12 месяцев</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="product__unit">
+                                                        <div class="product__img">
+                                                            <img src="img/pict1.jpg" alt="">
+                                                            <i></i>
+                                                        </div>
+                                                        <div class="product__info">
+                                                            <div class="product__name">Мобильный Wi-Fi роутер</div>
+                                                            <p>EVDO Rev A </p>
+                                                            <p>Подходит для всех Wi-Fi устройств</p>
+                                                            <a href="#">Технические характеристики</a>
+                                                            <div class="product__retailprice">Розничная цена – 799 грн</div>
+                                                            <button type="submit" class="btn">Заказать сейчас – <span>699 грн</span></button>
+                                                            <div class="product__help">
+                                                                <p>Возврат, обмен: в течение 14 дней.</p>
+                                                                <p>Гарантия: 12 месяцев</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="product__unit">
+                                                        <div class="product__img">
+                                                            <img src="img/pict1.jpg" alt="">
+                                                            <i></i>
+                                                        </div>
+                                                        <div class="product__info">
+                                                            <div class="product__name">Мобильный Wi-Fi роутер</div>
+                                                            <p>EVDO Rev A </p>
+                                                            <p>Подходит для всех Wi-Fi устройств</p>
+                                                            <a href="#">Технические характеристики</a>
+                                                            <div class="product__retailprice">Розничная цена – 799 грн</div>
+                                                            <button type="submit" class="btn">Заказать сейчас – <span>699 грн</span></button>
+                                                            <div class="product__help">
+                                                                <p>Возврат, обмен: в течение 14 дней.</p>
+                                                                <p>Гарантия: 12 месяцев</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="product__unit">
+                                                        <div class="product__img">
+                                                            <img src="img/pict1.jpg" alt="">
+                                                        </div>
+                                                        <div class="product__info">
+                                                            <div class="product__name">Мобильный Wi-Fi роутер 3G Турбо</div>
+                                                            <p>EVDO Rev B </p>
+                                                            <p>Подходит для всех Wi-Fi устройств</p>
+                                                            <a href="#">Технические характеристики</a>
+                                                            <div class="product__retailprice">Розничная цена – 499 грн</div>
+                                                            <button type="submit" class="btn">Заказать сейчас – <span>399 грн</span></button>
+                                                            <div class="product__help">
+                                                                <p>Возврат, обмен: в течение 14 дней.</p>
+                                                                <p>Гарантия: 12 месяцев</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                     
+                                 
+                                                
+                                </div>
+                                <!-- end cycle block -->
+                            </div>
+                            <!-- products slider -->
+                        </div>
+                        <!-- end tab -->
+                        <!--begin tab  -->
+                        <div class="product-cont js-tab-cont js-tab1">
+                            <div class="product__title">3G Турбо для стационарных ПК и ноутбуков</div>
+                            <div class="product__slider">
+                                <div class="product__controls">
+                                    <div class="product-prev product-prev4"></div>
+                                    <div class="product-next product-next4"></div>
+                                </div>  
+                                <div class="cycle-slideshow"
+                                data-cycle-fx="carousel"
+                                data-cycle-slides=".product__unit"
+                                data-cycle-prev=".product-prev4"
+                                data-cycle-next=".product-next4"
+                                data-cycle-timeout="0"
+                                data-cycle-carousel-visible="2"
+                                >
+                                    
+                                                <ul class="product__list">
+                                                    <li class="product__unit">
+                                                        <div class="product__img">
+                                                            <img src="img/pict1.jpg" alt="">
+                                                            <i></i>
+                                                        </div>
+                                                        <div class="product__info">
+                                                            <div class="product__name">Мобильный Wi-Fi роутер</div>
+                                                            <p>EVDO Rev A </p>
+                                                            <p>Подходит для всех Wi-Fi устройств</p>
+                                                            <a href="#">Технические характеристики</a>
+                                                            <div class="product__retailprice">Розничная цена – 799 грн</div>
+                                                            <button type="submit" class="btn">Заказать сейчас – <span>699 грн</span></button>
+                                                            <div class="product__help">
+                                                                <p>Возврат, обмен: в течение 14 дней.</p>
+                                                                <p>Гарантия: 12 месяцев</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="product__unit">
+                                                        <div class="product__img">
+                                                            <img src="img/pict1.jpg" alt="">
+                                                            <i></i>
+                                                        </div>
+                                                        <div class="product__info">
+                                                            <div class="product__name">Мобильный Wi-Fi роутер</div>
+                                                            <p>EVDO Rev A </p>
+                                                            <p>Подходит для всех Wi-Fi устройств</p>
+                                                            <a href="#">Технические характеристики</a>
+                                                            <div class="product__retailprice">Розничная цена – 799 грн</div>
+                                                            <button type="submit" class="btn">Заказать сейчас – <span>699 грн</span></button>
+                                                            <div class="product__help">
+                                                                <p>Возврат, обмен: в течение 14 дней.</p>
+                                                                <p>Гарантия: 12 месяцев</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="product__unit">
+                                                        <div class="product__img">
+                                                            <img src="img/pict1.jpg" alt="">
+                                                            <i></i>
+                                                        </div>
+                                                        <div class="product__info">
+                                                            <div class="product__name">Мобильный Wi-Fi роутер</div>
+                                                            <p>EVDO Rev A </p>
+                                                            <p>Подходит для всех Wi-Fi устройств</p>
+                                                            <a href="#">Технические характеристики</a>
+                                                            <div class="product__retailprice">Розничная цена – 799 грн</div>
+                                                            <button type="submit" class="btn">Заказать сейчас – <span>699 грн</span></button>
+                                                            <div class="product__help">
+                                                                <p>Возврат, обмен: в течение 14 дней.</p>
+                                                                <p>Гарантия: 12 месяцев</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="product__unit">
+                                                        <div class="product__img">
+                                                            <img src="img/pict1.jpg" alt="">
+                                                        </div>
+                                                        <div class="product__info">
+                                                            <div class="product__name">Мобильный Wi-Fi роутер 3G Турбо</div>
+                                                            <p>EVDO Rev B </p>
+                                                            <p>Подходит для всех Wi-Fi устройств</p>
+                                                            <a href="#">Технические характеристики</a>
+                                                            <div class="product__retailprice">Розничная цена – 499 грн</div>
+                                                            <button type="submit" class="btn">Заказать сейчас – <span>399 грн</span></button>
+                                                            <div class="product__help">
+                                                                <p>Возврат, обмен: в течение 14 дней.</p>
+                                                                <p>Гарантия: 12 месяцев</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                     
+                                 
+                                                
+                                </div>
+                                <!-- end cycle block -->
+                            </div>
+                            <!-- products slider -->
+                        </div>
+                        <!-- end tab -->
+                        </div>
+                        <!-- end product gallery -->
                     </div>
                     <!-- end l-right -->
   					
