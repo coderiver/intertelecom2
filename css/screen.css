@@ -275,7 +275,7 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 
 .product__title { margin-bottom: 55px; font-size: 34px; text-align: center; color: #414042; }
 
-.product__unit { width: 415px; height: 415px; }
+.product__unit { width: 415px; height: 415px; vertical-align: top; }
 
 .product__img { float: left; text-align: center; width: 40%; position: relative; }
 .product__img img { max-width: 90%; }
