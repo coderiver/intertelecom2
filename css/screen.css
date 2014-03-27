@@ -288,7 +288,7 @@ body { font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; lin
 .product__info .btn { height: 44px; width: 100%; margin-bottom: 5px; color: #414042; font-size: 17px; font-family: "HeliosCondRegular", Arial, sans-serif; }
 .product__info .btn span { font-family: "HeliosCondBold"; font-weight: normal; font-style: normal; }
 
-.product__name { font-size: 22px; font-family: "HeliosCondBold"; font-weight: normal; font-style: normal; margin-bottom: 30px; }
+.product__name { font-size: 22px; font-family: "HeliosCondBold"; font-weight: normal; font-style: normal; margin-bottom: 30px; min-height: 56px; }
 
 .product__retailprice { margin-top: 10px; margin-bottom: 12px; font-family: "HeliosCondBold"; font-weight: normal; font-style: normal; }
 
